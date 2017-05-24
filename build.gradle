@@ -3,10 +3,6 @@ plugins {
     id 'idea'
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.1'
-}
-
 repositories {
     jcenter()
     maven {
